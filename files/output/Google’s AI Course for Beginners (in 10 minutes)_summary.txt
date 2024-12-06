@@ -1,0 +1,13 @@
+The article discusses the basics of artificial intelligence (AI) and its subfields, including machine learning, deep learning, and large language models. Here's a summarized version:
+
+1. **Artificial Intelligence (AI)**: AI is a broad field of study, like physics. Machine learning is a subfield of AI, and deep learning is a subset of machine learning.
+
+2. **Machine Learning**: Machine learning is a program that uses input data to train a model, which can then make predictions based on new data. There are two main types of machine learning models: supervised and unsupervised. Supervised models use labeled data, while unsupervised models use unlabeled data.
+
+3. **Deep Learning**: Deep learning is a type of machine learning that uses artificial neural networks, inspired by the human brain. Deep learning models can be divided into two types: discriminative and generative models. Discriminative models learn from labeled data and classify data points, while generative models learn from patterns in the data and generate new samples.
+
+4. **Generative AI**: Generative AI generates new samples that are similar to the data it was trained on. Examples of generative AI include text-to-text models like Chagy BT and Google Bard, text-to-image models, text-to-video models, and text-to-3D models.
+
+5. **Large Language Models (LLMs)**: LLMs are a subset of deep learning and are pre-trained with a large set of data. They are then fine-tuned for specific purposes using smaller industry-specific datasets. LLMs are not the same as generative AI, although there is some overlap.
+
+The article concludes by providing tips for taking the full Google AI course and mastering prompting.

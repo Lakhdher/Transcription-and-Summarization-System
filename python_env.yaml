@@ -1,0 +1,35 @@
+name: transcription_summarization_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Base Python version (compatible with Whisper and other dependencies)
+  - python=3.10.4
+  
+  # Core libraries for transcription, summarization, and PDF processing
+  - pip
+  - ffmpeg                    # Required for Whisper to handle video/audio files
+  - fpdf                      # Library for creating PDFs from text files
+  - pypdf                     # Library for reading and extracting text from PDFs
+
+  # Whisper for transcription
+  - pip:
+      - openai-whisper        # Whisper library for transcription
+
+  # Tokenization and chunking utilities
+  - pip:
+      - tqdm                  # Progress bar for long-running operations
+      - transformers          # Used for tokenization and chunking
+
+  # .env file handling for API key management
+  - pip:
+      - python-dotenv         # Loads environment variables from a .env file
+
+  # Groq AI client for LLM summarization
+  - pip:
+      - groq                  # Client library for interacting with Groq's API
+
+  # Optional: Alternative LLM integration (e.g., Ollama)
+  # Uncomment the following lines if Groq API limits are exceeded or not preferred
+  # - pip:
+  #     - ollama               # Ollama CLI and Python bindings for local LLMs
